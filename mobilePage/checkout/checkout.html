@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/mobileIcon.css" />
+    <link rel="stylesheet" href="./checkout.css" />
+    <link
+      rel="stylesheet"
+      href="../../assess/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <script src="../browserRedirect.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body style="overflow-x: hidden">
+    <div class="mobile-container">
+      <div class="header">
+        <div class="search-box">
+          <span
+            id="goBack"
+            class="icons8--left-round"
+            style="font-size: 40px; color: white"
+          ></span>
+        </div>
+        <div class="page-title">
+          <p>Check Out</p>
+        </div>
+        <div class="tool-box">
+          <a
+            href="../myCart/myCart.html"
+            style="display: block"
+            id="shop-card-a"
+          >
+            <span class="mdi--shopping-cart-outline" id="shop-card"></span>
+          </a>
+          <a href="../index/index.html" style="display: block">
+            <span class="ic--round-home" id="home-icon"></span
+          ></a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="checkou-form-row form-margin">
+          <div class="form-input" id="form-address">
+            <span>Shipping Address</span>
+            <span>
+              <span
+                class="game-icons--position-marker"
+                id="form-address-icon"
+              ></span>
+              <input
+                type="text"
+                placeholder="Current Address......"
+                id="address"
+              />
+              <div class="address-button">CHANGE</div>
+            </span>
+          </div>
+        </div>
+        <div class="checkou-form-row form-margin">
+          <div class="form-input" id="form-address">
+            <span>Credit & Debit Card</span>
+            <span>
+              <span class="ion--card" id="form-address-icon"></span>
+
+              <input type="text" placeholder="Add Card" id="CreditCard" />
+              <span
+                class="mingcute--right-fill"
+                id="form-right-icon"
+                style="color: rgb(180, 180, 179)"
+              ></span>
+            </span>
+          </div>
+        </div>
+        <div class="checkou-form-row form-margin">
+          <div class="form-input" id="form-option">
+            <span>More Payment Options</span>
+            <span id="form-option-row">
+              <div class="form-option-box">
+                <span class="logos--paypal"></span>
+                <span id="form-option-text">Paypal</span>
+                <span id="form-option-icon">
+                  <span class="dashicons--yes"></span>
+                </span>
+              </div>
+              <div class="form-option-box">
+                <span class="ic--baseline-apple"></span>
+                <span id="form-option-text">Apple Pay</span>
+                <span id="form-option-icon">
+                  <!-- <span class="dashicons--yes"></span> -->
+                </span>
+              </div>
+              <div class="form-option-box">
+                <span class="devicon--google"></span>
+                <span id="form-option-text">Google Pay</span>
+                <span id="form-option-icon">
+                  <!-- <span class="dashicons--yes"></span> -->
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="checkout-button" id="confirmBtn">Confirm Payment</div>
+      </div>
+    </div>
+  </body>
+  <script src="./checkout.js"></script>
+</html>

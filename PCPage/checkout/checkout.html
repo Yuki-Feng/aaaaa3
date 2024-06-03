@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/icon.css" />
+    <link rel="stylesheet" href="./checkout.css" />
+    <link
+      rel="stylesheet"
+      href="../../assess/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <script src="../browserRedirect.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body style="overflow-x: hidden">
+    <div class="container">
+      <div class="header">
+        <div class="search-box">
+          <img class="logo" src="../../assess/img/logo.png" alt="" />
+          <div class="search-title">
+            <div class="title">AUSTRALIA'S BIGGEST ONLINE BUG STORE</div>
+            <div class="input-border">
+              <div class="input-box">
+                <span class="tabler--search" style="font-size: 34px"></span>
+                <input type="text" placeholder="Search..." autofocus />
+              </div>
+              <!-- <i class="fas fa-shopping-cart" id="shop-card"></i> -->
+              <div class="shop-box">
+                <!-- <div class="shop-point"></div> -->
+                <a
+                  href="../myCart/myCart.html"
+                  style="display: block"
+                  id="shop-card-a"
+                  ><span
+                    class="mdi--shopping-cart-outline"
+                    id="shop-card"
+                  ></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar" id="nav1">
+          <div id="nav2">
+            <ul>
+              <li><a href="../index/index.html">HOME</a></li>
+              <li>
+                <a href="#">SHOP <i class="fas fa-chevron-down"></i></a>
+                <ul>
+                  <li>
+                    <a href="../collect/collect.html" id="special-nav-a"
+                      >Spiders <i class="fas fa-chevron-right"></i></a
+                    ><a href="#">WA Allowed Incertebrates</a>
+                  </li>
+                  <li>
+                    <a href="#">Scorpions</a><a href="#">Beetles and Roaches</a>
+                  </li>
+                  <li><a href="#">Myriapods</a><a href="#">Enclosures</a></li>
+                  <li><a href="#">Phasimds</a><a href="#">Bug Infirmary</a></li>
+                  <li>
+                    <a href="#">Orthopterans</a><a href="#">Other Bugs</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">CONTRACT US</a></li>
+              <li>
+                <a href="#">INFORMATION <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li><a href="../order/order.html">MY CART</a></li>
+              <li><a href="../myCart/myCart.html">VIEW CART</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="checkout-box">
+          <p class="checkout-title">checkout</p>
+          <div class="checkout-ColName">
+            <div>
+              <span>Product</span>
+              <span>Subtotal</span>
+            </div>
+            <div id="goods-rows"></div>
+            <div>
+              <span>Total Paid</span>
+              <span id="totalPriceEle">$33.00</span>
+            </div>
+          </div>
+          <div class="checkou-form">
+            <p class="checkou-form-title form-margin">Payment Details</p>
+            <div class="checkou-form-row1 form-margin">
+              <div class="form-input">
+                <span>First Name</span>
+                <span>
+                  <input type="text" id="firstName" />
+                </span>
+              </div>
+              <div class="form-input">
+                <span>Last Name</span>
+                <span>
+                  <input type="text" id="lastName" />
+                </span>
+              </div>
+              <div class="form-input" id="form-phone">
+                <span>Phone Number</span>
+                <span>
+                  <input type="text" id="phoneNumber" />
+                </span>
+              </div>
+            </div>
+            <div class="checkou-form-row2 form-margin">
+              <div class="form-input" id="form-email">
+                <span>Email Address</span>
+                <span>
+                  <input type="text" id="email" />
+                </span>
+              </div>
+              <div class="form-input" id="form-email">
+                <span>Postcode</span>
+                <span>
+                  <input type="text" id="Postcode" />
+                </span>
+              </div>
+            </div>
+            <div class="checkou-form-row3 form-margin">
+              <div class="form-input" id="form-address">
+                <span>Shipping Address</span>
+                <span>
+                  <span
+                    class="game-icons--position-marker"
+                    id="form-address-icon"
+                  ></span>
+                  <input
+                    type="text"
+                    placeholder="Current Address......"
+                    id="address"
+                  />
+                </span>
+              </div>
+            </div>
+            <div class="checkou-form-row4 form-margin">
+              <div class="form-input" id="form-address">
+                <span>Credit & Debit Card</span>
+                <span>
+                  <span class="ion--card" id="form-address-icon"></span>
+
+                  <input type="text" placeholder="Add Card" id="CreditCard" />
+                  <span
+                    class="mingcute--right-fill"
+                    id="form-right-icon"
+                    style="color: rgb(180, 180, 179)"
+                  ></span>
+                </span>
+              </div>
+            </div>
+            <div class="checkou-form-row4 form-margin">
+              <div class="form-input" id="form-option">
+                <span>More Payment Options</span>
+                <span id="form-option-row">
+                  <div class="form-option-box">
+                    <span class="logos--paypal"></span>
+                    <span id="form-option-text">Paypal</span>
+                    <span id="form-option-icon">
+                      <span class="dashicons--yes"></span>
+                    </span>
+                  </div>
+                  <div class="form-option-box">
+                    <span class="ic--baseline-apple"></span>
+                    <span id="form-option-text">Apple Pay</span>
+                    <span id="form-option-icon">
+                      <!-- <span class="dashicons--yes"></span> -->
+                    </span>
+                  </div>
+                  <div class="form-option-box">
+                    <span class="devicon--google"></span>
+                    <span id="form-option-text">Google Pay</span>
+                    <span id="form-option-icon">
+                      <!-- <span class="dashicons--yes"></span> -->
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="myCart-button">
+            <div>
+              <a href="#" class="confirmBtn" id="myCart-button-normal"
+                >Confirm Payment</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./checkout.js"></script>
+</html>

@@ -1,0 +1,281 @@
+a:hover {
+  color: black !important;
+}
+.header {
+  width: 390px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.nav-box {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(235, 233, 233);
+  z-index: 999;
+}
+.main-box {
+  width: 90px;
+  position: relative;
+}
+.menu-nav {
+  display: none;
+  position: absolute;
+  float: left;
+  top: 69px;
+  left: 0;
+  width: 220px;
+  height: auto;
+  background-color: white;
+  overflow: hidden;
+  border: 1px solid rgb(235, 233, 233);
+}
+.menu-nav > ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.menu-nav > ul > li {
+  position: relative;
+  line-height: 30px;
+}
+.menu-nav > ul > li > a {
+  display: block;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: bold;
+  padding: 8px;
+  border-bottom: 1px solid rgb(235, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-nav > ul > li:last-child > a {
+  border: none;
+}
+.menu-nav > ul > li > ul {
+  margin-left: 20px;
+  overflow: hidden;
+}
+.menu-nav > ul > li > ul > li {
+  line-height: 20px;
+}
+.menu-nav > ul > li > ul > li:last-child {
+  border: none;
+}
+.menu-nav > ul > li > ul > li > a {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(235, 233, 233);
+  color: rgb(131, 130, 130);
+}
+
+#menu-icon {
+  font-size: 50px;
+  margin-left: 10px;
+  text-align: left;
+}
+.logo {
+  height: 50px;
+}
+.logo > img {
+  height: 50px;
+}
+.tool-box {
+  margin-right: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+#shop-card {
+  font-size: 40px;
+}
+#home-icon {
+  font-size: 50px;
+}
+.search-des {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.search-title {
+  font-size: 34px;
+  line-height: 35px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.search-txt {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.search-box {
+  height: 240px;
+  background-image: url("../../assess/img/bg1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top -50px left 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.input-box {
+  width: 90%;
+  margin-bottom: 50px;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box > input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 30px;
+  opacity: 0.7;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+/* main */
+.main {
+  width: 100%;
+  background-color: rgb(209, 231, 186);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-tool {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.main-tool > div:first-child {
+  font-size: 20px;
+  padding: 10px;
+  height: 30px;
+  background-color: rgb(156, 194, 102);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: white;
+}
+.main-tool > div:last-child {
+  font-size: 23px;
+  font-weight: bold;
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.main-goods {
+  width: 100%;
+}
+.main-goods > div {
+  /* / */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.main-goods > div > .card {
+  width: auto;
+  min-height: 180px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(186, 213, 148);
+}
+.main-goods > div > .card > div {
+  width: auto;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.main-goods > div > .card > div > .button {
+  width: auto;
+  height: 50px;
+  background-color: rgb(156, 194, 102);
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.main-goods > div > .card > div > .button > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+.main-goods > div > .card > div > .txt {
+  font-size: 14px;
+  margin-top: 20px;
+  width: 150px;
+  text-align: center;
+}
+.main-goods > div:first-child > .card img {
+  width: 170px;
+  max-height: 200px;
+  min-height: 130px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 231, 186);
+}
+.footer-txt {
+  width: 100%;
+  background-color: rgb(156, 194, 102);
+  margin-top: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-txt > div > .text {
+  width: auto;
+  font-size: 16px;
+  line-height: 25px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+.footer-txt > div > .icon {
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}

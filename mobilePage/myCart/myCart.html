@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/mobileIcon.css" />
+    <link rel="stylesheet" href="./myCart.css" />
+    <link
+      rel="stylesheet"
+      href="../../assess/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <script src="../browserRedirect.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body style="overflow-x: hidden">
+    <div class="mobile-container">
+      <div class="header">
+        <div class="search-box">
+          <span
+            id="goBack"
+            class="icons8--left-round"
+            style="font-size: 40px; color: white"
+          ></span>
+        </div>
+        <div class="page-title">
+          <p>My Cart</p>
+        </div>
+        <div class="tool-box">
+          <!-- <a
+            href="../myCart/myCart.html"
+            style="display: block"
+            id="shop-card-a"
+          >
+            <span class="mdi--shopping-cart-outline" id="shop-card"></span>
+          </a> -->
+          <a href="../index/index.html" style="display: block">
+            <span class="ic--round-home" id="home-icon"></span
+          ></a>
+        </div>
+      </div>
+      <div class="main" id="myCart-goods-row"></div>
+      <div class="footer">
+        <div class="goods-total">
+          <div>
+            <span>Sub-Total</span>
+            <span id="totalPrice">$0.00</span>
+          </div>
+
+          <div>
+            <span>Delivery Charge</span>
+            <span>$05.00</span>
+          </div>
+          <div>
+            <span>Tax</span>
+            <span>$05.00</span>
+          </div>
+          <div>
+            <span>Discount</span>
+            <span>-$10.00</span>
+          </div>
+          <div>
+            <span>Total Cost</span>
+            <span id="totalCost">$0.00</span>
+          </div>
+        </div>
+        <div class="checkout-button" id="checkOutBtn">
+          <a href="../checkout/checkout.html">Proceed to Checkout</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./myCart.js"></script>
+</html>

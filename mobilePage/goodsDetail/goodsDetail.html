@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/mobileIcon.css" />
+    <link rel="stylesheet" href="./goodsDetail.css" />
+    <link
+      rel="stylesheet"
+      href="../../assess/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <script src="../browserRedirect.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body style="overflow-x: hidden">
+    <div class="mobile-container">
+      <div class="header">
+        <div class="search-box">
+          <div class="input-box">
+            <span
+              class="tabler--search"
+              style="font-size: 34px; color: rgb(133, 132, 132)"
+            ></span>
+            <input type="text" placeholder="Search..." autofocus />
+          </div>
+        </div>
+        <div class="tool-box">
+          <a
+            href="../myCart/myCart.html"
+            style="display: block"
+            id="shop-card-a"
+          >
+            <div class="shop-point" id="shop-point" style="display: none"></div>
+            <span class="mdi--shopping-cart-outline" id="shop-card"></span>
+          </a>
+          <a href="../index/index.html" style="display: block">
+            <span class="ic--round-home" id="home-icon"></span
+          ></a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-show">
+          <div class="main-tool">
+            <span class="icons8--left-round" id="goBack"></span>
+            <div class="tool-right">
+              <span class="heart" id="heart">
+                <span
+                  class="ph--heart-fill"
+                  style="color: rgb(207, 208, 209)"
+                ></span>
+              </span>
+              <span
+                class="material-symbols--share"
+                style="color: white; margin-left: 10px"
+              ></span>
+            </div>
+          </div>
+          <div class="main-img">
+            <img src="../../assess/img/goods2-1.png" alt="" id="goodsImg" />
+          </div>
+          <div class="main-imgList">
+            <img src="../../assess/img/goods2-1.png" alt="" />
+            <img src="../../assess/img/goods2-2.png" alt="" />
+          </div>
+        </div>
+        <div class="main-detail">
+          <p class="goods-title" id="goodsName">Superb Jumping Spider</p>
+          <div class="goods-desone">
+            <p>(Sandalodes superbus)</p>
+            <p>CaptiveBornJuvie</p>
+          </div>
+          <div class="goods-quanty">
+            <p class="goods-title">Quantities:</p>
+            <div class="quanty-tool">
+              <span class="num-left" id="numLeft">
+                <span class="ic--round-minus"></span>
+              </span>
+              <span class="num-txt" id="goodsNum">1</span>
+              <span class="num-right" id="numRight">
+                <span class="ic--baseline-add"></span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <p class="goods-title">Product Description</p>
+            <p class="goods-destwo">
+              This is one of Australias largest jumping spiders,reaching up to
+              about 15-16mm in body length, while also being comparatively more
+              robust than other giants like Mopsus mormon.As adults these
+              spiders feature beautiful grey and black markings on the
+              abdomen,more prominent in females.Captive bred juveniles currently
+              eating x-small crickets.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div>
+          <p>Total price</p>
+          <p id="totalPrice">$33.00</p>
+        </div>
+        <div id="addCartButton">
+          Add to cart
+          <span class="mdi--shopping-cart-outline" id="add-shop-card"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./goodsDetail.js"></script>
+</html>

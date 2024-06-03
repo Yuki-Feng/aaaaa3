@@ -1,0 +1,247 @@
+.header {
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.search-box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.input-box {
+  width: 90%;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background-color: white;
+}
+.input-box > input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 30px;
+  opacity: 0.7;
+  font-size: 22px;
+}
+.tool-box {
+  font-size: 40px;
+  display: flex;
+  margin-right: 10px;
+}
+.tool-box > a:first-child {
+  margin-right: 10px;
+}
+
+/* main */
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-show {
+  width: 100%;
+  background-color: rgb(156, 194, 102);
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-tool {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-tool > .icons8--left-round {
+  font-size: 45px;
+  margin: 10px;
+  color: white;
+  background-color: aliceblue;
+}
+.tool-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+#heart {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-img > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.main-imgList {
+  width: 130px;
+  background-color: white;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.main-imgList > img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(209, 231, 186);
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.main-detail {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.goods-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.goods-desone {
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.goods-desone > p {
+  line-height: 30px;
+}
+.goods-quanty {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.quanty-tool {
+  display: flex;
+}
+.num-left,
+.num-right {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: white;
+  font-size: 24px;
+}
+.num-right {
+  border: none;
+  background-color: rgb(156, 194, 102);
+  color: white;
+}
+.num-txt {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.goods-destwo {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > div {
+  width: 40%;
+  height: 130px;
+}
+.footer > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.footer > div:first-child > p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(173, 173, 173);
+  margin: 10px;
+}
+.footer > div:first-child > p:last-child {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+.footer > div:last-child {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 24px;
+  background-color: rgb(156, 194, 102);
+  border-radius: 70px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+#add-shop-card {
+  margin-left: 10px;
+}
+
+#shop-card-a {
+  position: relative;
+}
+.shop-point {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background-color: red;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  border-radius: 50%;
+}

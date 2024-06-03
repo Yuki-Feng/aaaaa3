@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/icon.css" />
+    <link rel="stylesheet" href="./order.css" />
+    <link
+      rel="stylesheet"
+      href="../../assess/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <script src="../browserRedirect.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body style="overflow-x: hidden">
+    <div class="container">
+      <div class="header">
+        <div class="search-box">
+          <img class="logo" src="../../assess/img/logo.png" alt="" />
+          <div class="search-title">
+            <div class="title">AUSTRALIA'S BIGGEST ONLINE BUG STORE</div>
+            <div class="input-border">
+              <div class="input-box">
+                <span class="tabler--search" style="font-size: 34px"></span>
+                <input type="text" placeholder="Search..." autofocus />
+              </div>
+              <!-- <i class="fas fa-shopping-cart" id="shop-card"></i> -->
+              <div class="shop-box">
+                <!-- <div class="shop-point"></div> -->
+                <span class="mdi--shopping-cart-outline" id="shop-card"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar" id="nav1">
+          <div id="nav2">
+            <ul>
+              <li><a href="../index/index.html">HOME</a></li>
+              <li>
+                <a href="#">SHOP <i class="fas fa-chevron-down"></i></a>
+                <ul>
+                  <li>
+                    <a href="../collect/collect.html" id="special-nav-a"
+                      >Spiders <i class="fas fa-chevron-right"></i></a
+                    ><a href="#">WA Allowed Incertebrates</a>
+                  </li>
+                  <li>
+                    <a href="#">Scorpions</a><a href="#">Beetles and Roaches</a>
+                  </li>
+                  <li><a href="#">Myriapods</a><a href="#">Enclosures</a></li>
+                  <li><a href="#">Phasimds</a><a href="#">Bug Infirmary</a></li>
+                  <li>
+                    <a href="#">Orthopterans</a><a href="#">Other Bugs</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">CONTRACT US</a></li>
+              <li>
+                <a href="#">INFORMATION <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li><a href="../order/order.html">MY CART</a></li>
+              <li><a href="../myCart/myCart.html">VIEW CART</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="cart-box">
+          <p class="myCart-title">My Cart</p>
+          <div class="myCart-ColName">
+            <div>Product</div>
+            <div>Price</div>
+            <div>Quantity</div>
+            <div>Subtotal</div>
+          </div>
+          <div id="myCart-goods-row"></div>
+
+          <div class="myCart-button">
+            <div id="ContinueBtn">
+              <a href="../collect/collect.html" id="myCart-button-normal"
+                >Continue Shopping</a
+              >
+            </div>
+            <div>
+              <a href="../index/index.html" id="myCart-button-special"
+                >Cancelled</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./order.js"></script>
+</html>
